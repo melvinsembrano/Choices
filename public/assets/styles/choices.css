@@ -361,3 +361,13 @@
 }
 
 /*=====  End of Choices  ======*/
+ty: .5;
+}
+
+.choices__input.is-hidden,
+.choices[data-type*="select-one"] .choices__input.is-hidden,
+.choices[data-type*="select-multiple"] .choices__input.is-hidden {
+  display: none;
+}
+
+/*=====  End of Choices  ======*/
